@@ -15,7 +15,7 @@
 
 Provide a list of website URLs, and this tool will check their HTTP status **all at the exact same time**. It catches timeouts, handles broken links gracefully, and neatly packages the results into a formatted JSON file. 
 
-## 🧠 Go Concepts Mastered
+## 🧠 Go Concepts used
 
 This isn't just a simple script; it's a tour of Go's core features. Here is what's running under the hood:
 
