@@ -1,0 +1,22 @@
+{
+    "https://fake-url.invalid": {
+        "url": "https://fake-url.invalid",
+        "status": "Get \"https://fake-url.invalid\": dial tcp: lookup fake-url.invalid: no such host",
+        "up": false
+    },
+    "https://golang.org": {
+        "url": "https://golang.org",
+        "status": "200 OK",
+        "up": true
+    },
+    "https://httpbin.org/delay/5": {
+        "url": "https://httpbin.org/delay/5",
+        "status": "Get \"https://httpbin.org/delay/5\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+        "up": false
+    },
+    "https://redhat.com": {
+        "url": "https://redhat.com",
+        "status": "200 OK",
+        "up": true
+    }
+}
